@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Crux Sacra Apologetics</title>
-  <link rel="icon" type="image/svg+xml" href="crux.svg" />
-  <link rel="shortcut icon" href="crux.svg" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crux Sacra Apologetics</title>
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Primary Meta Tags
+  ═══════════════════════════════════════════════ -->
+  <title>Crux Sacra Apologetics | Catholic Apologetics Resources</title>
+  <meta name="description" content="Crux Sacra Apologetics equips Catholics and engages seekers with reasoned, Scripture-rooted resources — articles, videos, and evangelism materials defending the Christian faith." />
+  <meta name="keywords" content="Catholic apologetics, Christian apologetics, Catholic faith defense, Scripture, theology, evangelism, Catholic resources" />
+  <meta name="author" content="Crux Sacra Apologetics" />
+  <link rel="canonical" href="https://cruxsacraapologetics.com/" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Open Graph (Facebook, LinkedIn, iMessage)
+  ═══════════════════════════════════════════════ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://cruxsacraapologetics.com/" />
+  <meta property="og:title"       content="Crux Sacra Apologetics | Catholic Apologetics Resources" />
+  <meta property="og:description" content="Equipping Catholics and engaging seekers with reasoned, Scripture-rooted resources — articles, videos, and evangelism materials defending the Christian faith." />
+  <meta property="og:image"       content="https://cruxsacraapologetics.com/og-image.png" />
+  <meta property="og:site_name"   content="Crux Sacra Apologetics" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Twitter / X Card
+  ═══════════════════════════════════════════════ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:url"         content="https://cruxsacraapologetics.com/" />
+  <meta name="twitter:title"       content="Crux Sacra Apologetics | Catholic Apologetics Resources" />
+  <meta name="twitter:description" content="Equipping Catholics and engaging seekers with reasoned, Scripture-rooted resources — articles, videos, and evangelism materials defending the Christian faith." />
+  <meta name="twitter:image"       content="https://cruxsacraapologetics.com/og-image.png" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Structured Data (Schema.org)
+       Tells Google this is a religious organization
+       with a website — enables rich search results
+  ═══════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Crux Sacra Apologetics",
+    "url": "https://cruxsacraapologetics.com",
+    "logo": "https://cruxsacraapologetics.com/crux.svg",
+    "description": "Catholic apologetics ministry providing articles, videos, and evangelism materials to equip believers and engage seekers with reasoned, Scripture-rooted resources.",
+    "sameAs": [
+      "https://www.youtube.com/@CruxSacraApologetics"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "availableLanguage": "English"
+    }
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="crux.svg" />
+  <link rel="shortcut icon" href="crux.svg" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <!-- Cormorant Garamond (OFL) + DM Sans (OFL) -->
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -136,7 +192,6 @@
       background: var(--white);
     }
 
-    /* Large logo — top half visible, fades to white downward */
     .hero-logo-bg-wrap {
       position: absolute;
       bottom: -4%;
@@ -164,7 +219,6 @@
       to   { opacity: 1; transform: translateX(-50%) scale(1); }
     }
 
-    /* Foreground content sits above background logo */
     .hero-content {
       position: relative;
       z-index: 1;
@@ -437,7 +491,6 @@
 
     @media (max-width: 680px) {
       nav { padding: 0 1.25rem; }
-
       .nav-links {
         display: none; flex-direction: column;
         position: fixed; top: var(--nav-h); left: 0; right: 0;
@@ -451,7 +504,6 @@
         border-bottom: 1px solid var(--rule); letter-spacing: 0.18em;
       }
       .nav-links a::after { display: none; }
-
       .nav-toggle {
         display: flex; flex-direction: column; gap: 5px;
         cursor: pointer; padding: 4px; background: none; border: none; margin-left: auto;
@@ -460,7 +512,6 @@
         display: block; width: 22px; height: 1.5px;
         background: var(--black); transition: transform 0.3s, opacity 0.3s;
       }
-
       .mission-grid { grid-template-columns: 1fr; gap: 2.5rem; }
       .mission-visual { display: none; }
       footer { flex-direction: column; align-items: flex-start; }
@@ -472,7 +523,7 @@
   <!-- Navigation -->
   <nav>
     <a href="#home" class="nav-brand">
-      <img src="crux.svg" alt="Crux Sacra logo" class="nav-logo" />
+      <img src="crux.svg" alt="Crux Sacra Apologetics logo" class="nav-logo" />
       <div class="nav-wordmark">
         Crux Sacra
         <span>Apologetics</span>
