@@ -3,12 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Videos — Crux Sacra Apologetics</title>
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Primary Meta Tags
+  ═══════════════════════════════════════════════ -->
+  <title>Videos | Crux Sacra Apologetics — Catholic Apologetics on YouTube</title>
+  <meta name="description" content="Watch Catholic apologetics videos from Crux Sacra Apologetics on YouTube. Topics include infant baptism, Sola Fide, Augustine, Scripture, and theological debate." />
+  <meta name="keywords" content="Catholic apologetics videos, Sola Fide, infant baptism, Augustine, Catholic YouTube, Scripture theology, faith and works" />
+  <meta name="author" content="Crux Sacra Apologetics" />
+  <link rel="canonical" href="https://cruxsacraapologetics.com/videos.html" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Open Graph (Facebook, LinkedIn, iMessage)
+  ═══════════════════════════════════════════════ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://cruxsacraapologetics.com/videos.html" />
+  <meta property="og:title"       content="Videos | Crux Sacra Apologetics — Catholic Apologetics on YouTube" />
+  <meta property="og:description" content="Watch Catholic apologetics videos from Crux Sacra Apologetics. Topics include infant baptism, Sola Fide, Augustine, Scripture, and theological debate." />
+  <meta property="og:image"       content="https://cruxsacraapologetics.com/og-image.png" />
+  <meta property="og:site_name"   content="Crux Sacra Apologetics" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Twitter / X Card
+  ═══════════════════════════════════════════════ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:url"         content="https://cruxsacraapologetics.com/videos.html" />
+  <meta name="twitter:title"       content="Videos | Crux Sacra Apologetics — Catholic Apologetics on YouTube" />
+  <meta name="twitter:description" content="Watch Catholic apologetics videos from Crux Sacra Apologetics. Topics include infant baptism, Sola Fide, Augustine, Scripture, and theological debate." />
+  <meta name="twitter:image"       content="https://cruxsacraapologetics.com/og-image.png" />
+
+  <!-- ═══════════════════════════════════════════════
+       SEO — Structured Data (Schema.org)
+       Marks this as a video collection page and
+       lists each featured video for Google rich results
+  ═══════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Videos — Crux Sacra Apologetics",
+    "description": "Featured Catholic apologetics videos from the Crux Sacra Apologetics YouTube channel.",
+    "url": "https://cruxsacraapologetics.com/videos.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Crux Sacra Apologetics",
+      "url": "https://cruxsacraapologetics.com",
+      "logo": "https://cruxsacraapologetics.com/crux.svg"
+    },
+    "hasPart": [
+      {
+        "@type": "VideoObject",
+        "name": "Infant Baptism is SOLVED by This Overlooked Reality...",
+        "description": "A logical and statistical analysis on why we don't find Infant Baptism mentioned commonly in Scripture.",
+        "url": "https://www.youtube.com/watch?v=gw_SyhnNtRc",
+        "thumbnailUrl": "https://img.youtube.com/vi/gw_SyhnNtRc/maxresdefault.jpg",
+        "uploadDate": "2024-01-01",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Crux Sacra Apologetics"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Augustine DESTROYS the Protestant View of Eph 2:8-9",
+        "description": "Featuring Augustine's writings on how to read Ephesian 2:8-9 as NOT supporting Sola Fide.",
+        "url": "https://www.youtube.com/watch?v=Xg7I6nTzlpk",
+        "thumbnailUrl": "https://img.youtube.com/vi/Xg7I6nTzlpk/maxresdefault.jpg",
+        "uploadDate": "2024-01-01",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Crux Sacra Apologetics"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Works DO NOT \"Flow\" From Faith; Here's Why",
+        "description": "Addressing one of the most common defenses from Sola Fide Criticism: the idea that works will naturally flow from faith.",
+        "url": "https://www.youtube.com/watch?v=uav1FVyeSfM",
+        "thumbnailUrl": "https://img.youtube.com/vi/uav1FVyeSfM/maxresdefault.jpg",
+        "uploadDate": "2024-01-01",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Crux Sacra Apologetics"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="crux.svg" />
   <link rel="shortcut icon" href="crux.svg" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -36,7 +128,7 @@
       overflow-x: hidden;
     }
 
-    /* ── Navigation (identical to index.html) ── */
+    /* ── Navigation ── */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -184,26 +276,11 @@
       animation: fadeUp 0.9s ease forwards 0.65s;
     }
 
-    .yt-link:hover {
-      background: transparent;
-      color: var(--black);
-    }
+    .yt-link:hover { background: transparent; color: var(--black); }
+    .yt-link:hover .yt-icon-path { fill: var(--black); }
 
-    .yt-link:hover .yt-icon-path {
-      fill: var(--black);
-    }
-
-    .yt-icon {
-      width: 22px;
-      height: 16px;
-      flex-shrink: 0;
-      transition: fill 0.22s;
-    }
-
-    .yt-icon-path {
-      fill: var(--white);
-      transition: fill 0.22s;
-    }
+    .yt-icon { width: 22px; height: 16px; flex-shrink: 0; transition: fill 0.22s; }
+    .yt-icon-path { fill: var(--white); transition: fill 0.22s; }
 
     /* ── Featured section ── */
     .featured-section {
@@ -244,10 +321,8 @@
       flex-direction: column;
       text-decoration: none;
       color: inherit;
-      group: true;
     }
 
-    /* Thumbnail container */
     .video-thumb {
       position: relative;
       width: 100%;
@@ -266,12 +341,8 @@
       transition: transform 0.45s ease, opacity 0.3s ease;
     }
 
-    .video-card:hover .video-thumb img {
-      transform: scale(1.04);
-      opacity: 0.85;
-    }
+    .video-card:hover .video-thumb img { transform: scale(1.04); opacity: 0.85; }
 
-    /* Play button overlay */
     .play-overlay {
       position: absolute;
       inset: 0;
@@ -282,13 +353,10 @@
       transition: background 0.3s ease;
     }
 
-    .video-card:hover .play-overlay {
-      background: rgba(0,0,0,0.18);
-    }
+    .video-card:hover .play-overlay { background: rgba(0,0,0,0.18); }
 
     .play-btn {
-      width: 56px;
-      height: 56px;
+      width: 56px; height: 56px;
       background: rgba(10,10,10,0.82);
       border-radius: 50%;
       display: flex;
@@ -299,18 +367,10 @@
       transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
-    .video-card:hover .play-btn {
-      transform: scale(1);
-      opacity: 1;
-    }
+    .video-card:hover .play-btn { transform: scale(1); opacity: 1; }
 
-    .play-btn svg {
-      width: 20px; height: 20px;
-      fill: var(--white);
-      margin-left: 3px;
-    }
+    .play-btn svg { width: 20px; height: 20px; fill: var(--white); margin-left: 3px; }
 
-    /* Card text */
     .video-label {
       font-size: 0.62rem;
       font-weight: 400;
@@ -361,19 +421,16 @@
     footer {
       border-top: 1px solid var(--rule);
       padding: 2.75rem 2.5rem;
-      display: flex;
-      align-items: center;
+      display: flex; align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1.25rem;
+      flex-wrap: wrap; gap: 1.25rem;
       background: var(--off);
     }
 
     .footer-brand { display: flex; align-items: center; gap: 0.6rem; }
     .footer-logo { width: 26px; height: 26px; opacity: 0.3; }
     .footer-name {
-      font-family: var(--serif);
-      font-size: 0.88rem; font-weight: 600;
+      font-family: var(--serif); font-size: 0.88rem; font-weight: 600;
       letter-spacing: 0.07em; text-transform: uppercase;
       color: rgba(10,10,10,0.35);
     }
@@ -437,7 +494,7 @@
   <!-- ── Navigation ── -->
   <nav>
     <a href="index.html" class="nav-brand">
-      <img src="crux.svg" alt="Crux Sacra logo" class="nav-logo" />
+      <img src="crux.svg" alt="Crux Sacra Apologetics logo" class="nav-logo" />
       <div class="nav-wordmark">
         Crux Sacra
         <span>Apologetics</span>
@@ -463,14 +520,11 @@
     <p class="page-eyebrow">Video Resources</p>
     <h1 class="page-title">Crux Sacra Apologetics<br /><em>on YouTube</em></h1>
     <p class="page-desc">
-      <!-- REPLACE THIS TEXT with your own channel description -->
       Videos on Catholic Apologetics can be found on the YouTube Channel.
       Topics range from several emphases of debate within theology.
       Subscribe for Catholic apologetics.
     </p>
 
-    <!-- YouTube channel link button -->
-    <!-- REPLACE the href below with your actual YouTube channel URL -->
     <a href="https://www.youtube.com/@CruxSacraApologetics" target="_blank" rel="noopener noreferrer" class="yt-link">
       <svg class="yt-icon" viewBox="0 0 24 17" xmlns="http://www.w3.org/2000/svg">
         <path class="yt-icon-path" d="M23.495 2.656a3.016 3.016 0 0 0-2.122-2.136C19.505 0 12 0 12 0S4.495 0 2.627.52A3.016 3.016 0 0 0 .505 2.656 31.65 31.65 0 0 0 0 8.5a31.65 31.65 0 0 0 .505 5.844 3.016 3.016 0 0 0 2.122 2.136C4.495 17 12 17 12 17s7.505 0 9.373-.52a3.016 3.016 0 0 0 2.122-2.136A31.65 31.65 0 0 0 24 8.5a31.65 31.65 0 0 0-.505-5.844zM9.545 12.068V4.932L15.818 8.5l-6.273 3.568z"/>
@@ -486,11 +540,6 @@
 
     <div class="video-grid">
 
-      <!-- ── VIDEO CARD 1 ── -->
-      <!-- REPLACE href with the full YouTube video URL -->
-      <!-- REPLACE src in <img> with the video's thumbnail URL -->
-      <!-- YouTube thumbnail format: https://img.youtube.com/vi/gw_SyhnNtRc/maxresdefault.jpg -->
-      <!-- REPLACE the title, label, and description text -->
       <a href="https://www.youtube.com/watch?v=gw_SyhnNtRc" target="_blank" rel="noopener noreferrer" class="video-card reveal">
         <div class="video-thumb">
           <img src="https://img.youtube.com/vi/gw_SyhnNtRc/maxresdefault.jpg" alt="Infant Baptism is SOLVED by This Overlooked Reality..." />
@@ -506,7 +555,6 @@
         <span class="video-watch">Watch on YouTube</span>
       </a>
 
-      <!-- ── VIDEO CARD 2 ── -->
       <a href="https://www.youtube.com/watch?v=Xg7I6nTzlpk" target="_blank" rel="noopener noreferrer" class="video-card reveal">
         <div class="video-thumb">
           <img src="https://img.youtube.com/vi/Xg7I6nTzlpk/maxresdefault.jpg" alt="Augustine DESTROYS the Protestant View of Eph 2:8-9" />
@@ -522,10 +570,9 @@
         <span class="video-watch">Watch on YouTube</span>
       </a>
 
-      <!-- ── VIDEO CARD 3 ── -->
       <a href="https://www.youtube.com/watch?v=uav1FVyeSfM" target="_blank" rel="noopener noreferrer" class="video-card reveal">
         <div class="video-thumb">
-          <img src="https://img.youtube.com/vi/uav1FVyeSfM/maxresdefault.jpg" alt="Works DO NOT "Flow" From Faith; Here's Why" />
+          <img src="https://img.youtube.com/vi/uav1FVyeSfM/maxresdefault.jpg" alt="Works DO NOT Flow From Faith; Here's Why" />
           <div class="play-overlay">
             <div class="play-btn">
               <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
@@ -534,7 +581,7 @@
         </div>
         <p class="video-label">Featured · Apologetics</p>
         <h3 class="video-title">Works DO NOT "Flow" From Faith; Here's Why</h3>
-        <p class="video-desc">Addressing one of the most common defenses from Sola Fide Criticism: the idea that works will naturally flow from faith..</p>
+        <p class="video-desc">Addressing one of the most common defenses from Sola Fide Criticism: the idea that works will naturally flow from faith.</p>
         <span class="video-watch">Watch on YouTube</span>
       </a>
 
