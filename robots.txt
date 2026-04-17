@@ -1,0 +1,9 @@
+# robots.txt — Crux Sacra Apologetics
+# https://cruxsacraapologetics.com
+
+# Allow all legitimate search engine crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cruxsacraapologetics.com/sitemap.xml
