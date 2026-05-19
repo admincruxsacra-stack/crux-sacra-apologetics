@@ -537,7 +537,7 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="#home"     class="active">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#articles">Articles</a></li>
+      <li><a href="commentary.html">Resources</a></li>
       <li><a href="videos.html">Videos</a></li>
       <li><a href="#shop">Shop</a></li>
       <li><a href="#help">Help</a></li>
@@ -576,11 +576,11 @@
         <h2 class="section-title">Resources for<br /><em>Every Conversation</em></h2>
       </div>
       <div class="offerings-grid">
-        <a href="#articles" class="offering-card reveal">
+        <a href="commentary.html" class="offering-card reveal">
           <div class="offering-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M9 9v11"/></svg></div>
-          <div class="offering-title">Articles</div>
-          <p class="offering-desc">In-depth written resources covering theology, philosophy, and common objections to the Christian faith.</p>
-          <span class="offering-link">Read articles</span>
+          <div class="offering-title">Resources</div>
+          <p class="offering-desc">Study tools and reference materials for the Catholic faithful — beginning with a verse-by-verse Church Fathers Bible commentary.</p>
+          <span class="offering-link">Explore resources</span>
         </a>
         <a href="videos.html" class="offering-card reveal">
           <div class="offering-icon"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
@@ -638,13 +638,14 @@
 
   <div class="divider"></div>
 
-  <!-- Articles -->
-  <div id="articles">
+  <!-- Resources -->
+  <div id="resources">
     <div class="section-wrap placeholder">
       <div class="reveal">
-        <p class="section-label">Coming Soon</p>
-        <h2 class="section-title"><em>Articles</em></h2>
-        <p class="section-body">Written resources on theology, philosophy of religion, and common questions about the Christian faith are being prepared. Check back soon.</p>
+        <p class="section-label">Now Available</p>
+        <h2 class="section-title"><em>Resources</em></h2>
+        <p class="section-body">Explore the Church Fathers Bible Commentary — a verse-by-verse study tool pairing the Douay-Rheims New Testament with patristic commentary from Augustine, Chrysostom, Jerome, and the great teachers of the early Church. More resources are being developed and will be added over time.</p>
+        <a href="commentary.html" style="display:inline-block;margin-top:1.5rem;padding:0.75rem 1.75rem;background:var(--black);color:var(--white);font-family:var(--sans);font-size:0.7rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;border:1px solid var(--black);transition:background 0.22s,color 0.22s;" onmouseover="this.style.background='transparent';this.style.color='var(--black)'" onmouseout="this.style.background='var(--black)';this.style.color='var(--white)'">Open the Commentary Tool</a>
       </div>
     </div>
   </div>
@@ -716,7 +717,7 @@
 
     // Active nav on scroll
     const navItems = document.querySelectorAll('.nav-links a');
-    const targets = ['home','about','articles','videos','shop','help']
+    const targets = ['home','about','resources','videos','shop','help']
       .map(id => document.getElementById(id)).filter(Boolean);
 
     const activeObserver = new IntersectionObserver((entries) => {
