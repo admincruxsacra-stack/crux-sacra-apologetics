@@ -1,0 +1,18 @@
+{
+  "book": "Titus",
+  "book_slug": "titus",
+  "entries": [
+    {
+      "id": "titu-3-5-001",
+      "chapter": 3,
+      "verse": 5,
+      "father": "Irenaeus of Lyons",
+      "summary": "THE HERETICS DENY BAPTISM WHICH IS REGENERATION TO GOD,  \nAND THUS RENUNCIATE THE WHOLE FAITH",
+      "citation": "Against Heresies, Book I, Chapter 21, Sections 1-2 [A.D. 180]",
+      "paragraphs": [
+        "“And when we come to refute them, we shall show in its fitting-place, that this class of men have been instigated by Satan to a denial of that baptism which is regeneration to God, and thus to a renunciation of the whole [Christian] faith.",
+        "They maintain that those who have attained to perfect knowledge must of necessity be regenerated into that power which is above all. For it is otherwise impossible to find admittance within the Pleroma, since this [regeneration] it is which leads them down into the depths of Bythus. For the baptism instituted by the visible Jesus was for the remission of sins, but the redemption brought in by that Christ who descended upon Him, was for perfection; and they allege that the former is animal, but the latter spiritual. And the baptism of John was proclaimed with a view to repentance, but the redemption by Jesus was brought in for the sake of perfection.”"
+      ]
+    }
+  ]
+}

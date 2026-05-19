@@ -1,0 +1,39 @@
+{
+  "book": "1 Timothy",
+  "book_slug": "1-timothy",
+  "entries": [
+    {
+      "id": "1tim-4-10-001",
+      "chapter": 4,
+      "verse": 10,
+      "father": "Clement of Alexandria",
+      "summary": "SALVATION IS OF INESTIMABLE VALYE, BUT YOU MAY CHOOSE TO PURCHASE IT BY LOVE AND LIVING FAITH",
+      "citation": "Exhortation to the Heathen, Chapter 9 [A.D. 190]",
+      "paragraphs": [
+        "“If eternal salvation were to be sold, for how much, O men, would you propose to purchase it? Were one to estimate the value of the whole of Pactolus, the fabulous river of gold, he would not have reckoned up a price equivalent to salvation. Do not, however, faint. You may, if you choose, purchase salvation, though of inestimable value, with your own resources, love and living faith, which will be reckoned a suitable price. This recompense God cheerfully accepts; ‘for we trust in the living God, who is the Saviour of all men, especially of those who believe.’”"
+      ]
+    },
+    {
+      "id": "1tim-6-3-001",
+      "chapter": 6,
+      "verse": 3,
+      "father": "Ignatius of Antioch",
+      "summary": "IF ANY MAN FOLLOWS HIM THAT MAKES A SCHISM IN THE CHURCH, HE SHALL NOT INHERIT THE KINGDOM OF GOD.",
+      "citation": "Epistle to the Philadelphians, Chapter 3 [A.D. 107]",
+      "paragraphs": [
+        "“If any man follows him that makes a schism in the Church, he shall not inherit the kingdom of God. If any one walks according to a strange opinion, he agrees not with the passion [of Christ.].”"
+      ]
+    },
+    {
+      "id": "1tim-6-20-001",
+      "chapter": 6,
+      "verse": 20,
+      "father": "Irenaeus of Lyons",
+      "summary": "GNOSTICS, FALSELY CALLED “KNOWLEDGE,” RECOGNIZE THE SCRIPTURES, BUT PERVERT THE INTERPRETATIONS",
+      "citation": "Against Heresies, Book III, Chapter 12, Section 12 [A.D. 180]",
+      "paragraphs": [
+        "“Wherefore also Marcion and his followers have betaken themselves to mutilating the Scriptures, not acknowledging some books at all; and, curtailing the Gospel according to Luke and the Epistles of Paul, they assert that these are alone authentic, which they have themselves thus shortened. In another work, however, I shall, God granting [me strength], refute them out of these which they still retain. But all the rest, inflated with the false name of ‘knowledge,’ do certainly recognise the Scriptures; but they pervert the interpretations, as I have shown in the first book.”"
+      ]
+    }
+  ]
+}
